@@ -12,5 +12,8 @@
   "preferGlobal": true,
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.0.1"
+  }
 }
