@@ -1,17 +1,26 @@
 {
-  "name": "node-mongorestmvc",
+  "name": "mongorestgen",
   "version": "1.0.0",
-  "description": "",
+  "description": "Create controllers, mongoose models and routes using command line",
   "main": "./lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "node-mongorestmvc": "./bin/cli"
+    "mongorestgen": "./bin/cli"
   },
   "preferGlobal": true,
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "model generator",
+    "mongoose models",
+    "mongoose automatic",
+    "mongoose generator",
+    "controller generator",
+    "routes generator",
+    "generate files",
+    "generate nodejs files"
+  ],
+  "author": "Sonu Bamniya",
   "license": "ISC",
   "dependencies": {
     "ejs": "^3.0.1"
