@@ -1,6 +1,6 @@
 {
   "name": "mongorestgen",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Create controllers, mongoose models and routes using command line",
   "main": "./lib/index.js",
   "scripts": {
@@ -9,6 +9,14 @@
   "bin": {
     "mongorestgen": "./bin/cli"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sbamniya/mongoose-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sbamniya/mongoose-cli/issues"
+  },
+  "homepage": "https://github.com/sbamniya/mongoose-cli#readme",
   "preferGlobal": true,
   "keywords": [
     "model generator",
