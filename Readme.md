@@ -222,3 +222,13 @@ router.get('/:id', TestController.details)
 
 module.exports = router
 ```
+
+#### Create route and controller in single command
+
+```
+mongorestgen make:route Test --controller
+```
+
+alias:
+`-c`, `--ctrl`
+This will create a file inside `routes` directory named `TestRoute.js` with the following content and controller file inside `controllers` directory as name `TestController` with default controller code.
