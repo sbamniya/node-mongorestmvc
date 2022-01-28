@@ -1,6 +1,6 @@
 {
   "name": "mongorestgen",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Create controllers, mongoose models and routes using command line",
   "main": "./lib/index.js",
   "scripts": {
